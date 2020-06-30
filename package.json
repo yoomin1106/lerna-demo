@@ -1,0 +1,19 @@
+{
+  "name": "lerna-demo",
+  "version": "1.0.0",
+  "description": "lerna test demo",
+  "main": "index.js",
+  "author": "wudaming",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js packages"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "lerna": "^3.22.0"
+  }
+}
